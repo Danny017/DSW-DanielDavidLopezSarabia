@@ -1,0 +1,483 @@
+html, body{
+  margin 0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+}
+
+section{
+  min-height: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none;
+}
+
+#main-nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+}
+
+#main-nav ul li:hover{
+  background: #DC7633;
+}
+
+#main-nav ul li a {
+  color: #black;
+  text-decoration: none;
+  display: block;
+}
+
+
+h1, h2, h3, a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #494949;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #5d7177;
+}
+
+h3 {
+  font-family: 'Roboto Slab', serif;
+  color: #494949;
+  font-size: 40px;
+  padding-top: 8%; margin-bottom: 5px;
+}
+
+h4,h5, p{
+  font-family: 'Roboto Slab', serif;
+  color: #494949;
+}
+
+hr {
+
+  width: 30px;
+  height: 3px;
+  background: #494949;
+  border: 0;
+  margin: 0 auto 10px auto;
+}
+
+#logo, li, img, .button {transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms;}
+
+
+/* HEADER *******************************************/
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.nav-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-ul li a {
+  display: inline-block;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.hamburger {
+  display: transparent;
+  border: 0;
+  display: none;
+  color: #DC7633;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.hamburger:focus {
+  outline: none;
+}
+
+header {
+  width: 100%;
+  height: 120px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+
+
+#logo p{
+  width: auto;
+  height: 20px;
+  background-color: #D35400;
+  font-size: 15px;
+  color: #f0f0f0;
+  margin: 5px;
+
+}
+#logo img{
+  width: 140px;
+  float: left;
+  margin: 10px 0 0 40px;
+}
+
+#logo img:hover {
+  opacity: 0.7;
+}
+
+#logo img{
+  width: 320px;
+}
+
+header nav {
+  float: right;
+  margin: 10px 50px 0 0;
+}
+
+header nav ul li {
+  float: left;
+  margin-left: 25px;
+}
+
+header nav ul li a {
+  font-size: 16px;
+}
+
+header nav ul li:hover {
+  padding-top: 3px;
+}
+
+/* INICIO **************************************/
+
+#inicio {
+  background: url(../img/foto2.jpeg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#inicio h1 {
+  margin: 240px auto 0 auto;
+  font-size: 110px;
+}
+
+#inicio h2 {
+  margin: 0 auto 0 auto;
+  font-size: 25px;
+
+}
+
+#inicio img {
+  width: 32px;
+  margin-top: 150px;
+  opacity: 0.7;
+}
+
+#inicio img:hover {
+  opacity: 1;
+
+}
+
+/* ABOUT*************************/
+
+#acercade img {
+  width: 240px;
+
+}
+
+#acercade img:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+
+}
+
+#acercade h4 {
+  font-size: 25px;
+}
+
+#acercade p {
+  width: 700px;
+  margin: 0 auto 0 auto;
+}
+
+#acercade h2{
+  width: 100%;
+  height: 50px;
+  background-color: #D35400;
+}
+
+#acercade h2{
+  font-size: 20px;
+  color: #f0f0f0;
+  padding-top: 29px;
+}
+
+/*WORK****************************************/
+#productos h2{
+  width: 100%;
+  height: 55px;
+  background-color: #D35400;
+}
+
+#productos h2{
+  font-size: 20px;
+  color: #f0f0f0;
+  padding-top: 29px;
+}
+
+#productos {
+  background-color: #f0f0f0;
+}
+
+#projects {
+  width: 900px;
+  margin: 0 auto 0 auto;
+}
+
+#projects ul {
+  padding: 0;
+
+}
+
+#projects ul li {
+  width: 33.3%;
+  float: left;
+  margin-bottom: 15px;
+}
+
+#projects img {
+  width: 280px;
+  height: 170px;
+  border-radius: 5px;
+}
+
+#projects img:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+.slider {
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+
+}
+
+.slider li{
+  width: 100%;
+  list-style: none;
+}
+
+.slider ul {
+  display: flex;
+  padding: 0;
+  width: 500%;
+  animation: cambio 30s infinite alternate;
+  animation-timing-function: ease-in;
+}
+
+.slider img {
+   width: 50%;
+ }
+
+ @keyframes cambio {
+   0% {margin-left: 0; }
+   20% {margin-left: 0; }
+
+   25% {margin-left: -100%; }
+   45% {margin-left: -100%; }
+
+   50% {margin-left: -200%; }
+   70% {margin-left: -200%; }
+
+   75% {margin-left: -300%; }
+   100% {margin-left: -300%; }
+ }
+
+
+/*distribuidores************************************/
+
+
+
+
+
+/*contactos****************************************/
+
+form input, textarea{
+  font-family: 'Roboto Slab', serif;
+  font-size: 15px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  border: 2px solid;
+  border-color: #D35400;
+}
+
+form input:first-child {
+  margin-top: 10px;
+}
+
+form input {
+  width: 552px;
+  height: 30px;
+}
+
+form textarea {
+  width: 550px;
+  height: 200px;
+  resize: none;
+}
+
+.input_text {
+  color: black;
+  padding-left: 10px;
+}
+
+::-webkit-input-placeholder {color: #999999;}
+::-moz-placeholder {color: #999999;}
+::-ms-input-placeholder {color: #999999;}
+
+.button {
+  background-color: #f0f0f0;
+  color: #DC7633;
+  width: 566px;
+  height: 50px;
+}
+
+.button:hover {
+  background-color: #DC7633;
+  color: #f0f0f0;
+}
+
+/*FOOTER****************************************/
+footer {
+  width: 100%;
+  height: 70px;
+  background-color: #D35400;
+}
+
+footer p {
+  font-size: 12px;
+  color: #f0f0f0;
+  padding-top: 30px;
+
+}
+
+
+
+/* MEDIA QUERIES *****************************/
+
+/* TABLETS ***/
+@media screen and (max-width: 1242px) {
+  #logo p{
+    display: none;
+  }
+  #nav-ul {
+    display: none;
+  }
+
+  #hamburger {
+    display: block;
+  }
+
+  #btn {
+    width: 100%;
+  }
+
+  #logo {
+    width: 100%;
+  }
+
+  #nav-ul li a {
+    padding: 10px;
+}
+
+
+  header {
+    height: auto;
+  }
+
+  #logo {
+    width: 100px;
+    margin-top: 5px;
+  }
+
+  header nav {
+    margin-top: 0;
+  }
+
+  header nav ul li {
+    font-size: 12px;
+  }
+
+  #inicio h1 {
+    font-size: 90px;
+    margin-top: 200px;
+  }
+
+  #inicio h2 {
+    font-size: 22px;
+  }
+  h3 {
+    padding-top: 12%;
+  }
+
+  #acercade p {
+    width: 400px;
+  }
+  #projects {
+    width: auto;
+  }
+
+  #projects ul li {
+    width: 100%;
+    float: none;
+  }
+  #projects ul li:last-child {
+    padding-buttom: 20%;
+  }
+
+  #projects img {
+    width: 55%;
+    height: auto;
+  }
+
+  form input, form textarea {
+    width: 60%;
+  }
+
+  .button {
+    width: 62%;
+  }
+}
+
+
+@media screen and(max-width: 767px) {
+  .nav-ul {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
